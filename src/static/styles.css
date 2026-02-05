@@ -142,3 +142,41 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 12px;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-weight: 600;
+}
+
+.participants-list {
+  list-style: disc;
+  padding-left: 22px;
+  margin: 0;
+}
+
+.participants-list li {
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #fbfbff);
+  border: 1px solid #eef1ff;
+  color: #2f3a59;
+  font-size: 14px;
+}
+
+/* small helper info when no participants */
+.activity-card .info {
+  margin: 6px 0 0;
+  padding: 8px;
+  border-radius: 6px;
+  background: #f1f7ff;
+  color: #1a237e;
+  border: 1px solid #dbe7ff;
+  font-size: 14px;
+}
